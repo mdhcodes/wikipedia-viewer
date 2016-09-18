@@ -1,0 +1,112 @@
+/*===== GENERAL =====*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #94b8cd;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #021a34;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: #c2d4e1;
+}
+
+
+/*===== VIEWER =====*/
+
+.viewer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em 2em 1em;
+  text-align: center;
+}
+
+#search-subject {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 40em;
+  padding: 0.7em;
+}
+
+#search-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6em;
+  font-size: 1.125em;
+  background-color: #c2d4e1;
+  border: 1px solid;
+}
+
+#search-button:hover {
+  color: #fafafa;
+  background-color: #021a34;
+}
+
+#results {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  margin: 0 0 1em 0;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1.125em;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+}
+
+.h2-results {
+  margin-bottom: -0.7em;
+  font-size: 1.375em;
+}
+
+.div-results {
+  border-left: 5px solid  #94b8cd;
+  margin: 0 0 1em 0;
+  padding: 0.5em 1em 1em;
+  background-color: #c2d4e1;
+}
+
+.div-results a:hover {
+  color: #021a34;
+}
+
+.div-results:hover {
+  border-left: 5px solid #021a34;
+}
+
+
+/*===== FOOTER =====*/
+
+footer {
+  margin: 5em auto;
+  text-align: center;
+  padding: 1em 0 0 0;
+  font-size: 12px;
+}

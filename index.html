@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Wikipedia Viewer</title>
+    <meta name="description" content="Wikipedia Viewer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="css/wiki.css">
+  </head>
+  <body>
+    <section class="viewer">
+      <h1>Wikipedia Viewer</h1>
+      <div id="search">
+        <h2>Search Wikipedia for a specific name or topic.</h2>
+        <input id="search-subject" type="text" placeholder="Search for articles about . . . ">
+          <button id="search-button">Search</button>
+      </div>
+      <h3>Click to read a <a href="https://en.wikipedia.org/wiki/Special:Random" id="random" target="_blank">Random Wikipedia Article</a></h3>
+    </section><!-- end viewer -->
+    <section id="results"></section>
+    <footer>
+      <p>Search results delivered by: <a href="" target="_blank">MediaWiki Web Service API</a></p>
+      <p>© 2016 <a href="http://www.mdhcodes.com/">mdhCodes</a> ♥</p>
+    </footer>
+    <script src="wiki.js"></script>
+  </body>
+</html>
